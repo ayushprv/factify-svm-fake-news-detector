@@ -4,9 +4,10 @@ Factify is a small Streamlit app that classifies news text as likely real or fak
 
 ## Run locally
 
-1. Put the compressed datasets `Fake.csv.gz` and `True.csv.gz` in this directory. Each must include a `text` column.
-2. Install dependencies: `pip install -r requirements.txt`
-3. Start the app: `streamlit run app.py`
+1. Install dependencies: `pip install -r requirements.txt`
+2. Start the app: `streamlit run app.py`
+
+The included compressed datasets, `Fake.csv.gz` and `True.csv.gz`, each provide the `text` column used for training.
 
 The model trains when the app starts, then is cached for later interactions. Its held-out accuracy is shown in the sidebar.
 
